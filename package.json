@@ -1,0 +1,26 @@
+{
+  "name": "webpack_esbuild_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --mode development --port 8080",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "esbuild": "^0.19.3",
+    "esbuild-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.5.3",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "postcss": "^8.4.30",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
